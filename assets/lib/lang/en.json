@@ -33,5 +33,33 @@
     {
         "identifier": "skill-title-project",
         "content": "Skill(s)"
+    },
+    {
+        "identifier": "graph-badge",
+        "content": "Graph"
+    },
+    {
+        "identifier": "algorithm-badge",
+        "content": "Algorithm"
+    },
+    {
+        "identifier": "tree-badge",
+        "content": "Decision tree"
+    },
+    {
+        "identifier": "city-badge",
+        "content": "City generation"
+    },
+    {
+        "identifier": "math-badge",
+        "content": "Math"
+    },
+    {
+        "identifier": "game-badge",
+        "content": "Video games"
+    },
+    {
+        "identifier": "resume",
+        "content": "Resume"
     }
 ]

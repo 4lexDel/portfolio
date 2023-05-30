@@ -33,5 +33,33 @@
     {
         "identifier": "skill-title-project",
         "content": "Compétence(s)"
+    },
+    {
+        "identifier": "graph-badge",
+        "content": "Graphe"
+    },
+    {
+        "identifier": "algorithm-badge",
+        "content": "Algorithme"
+    },
+    {
+        "identifier": "tree-badge",
+        "content": "Arbre de décision"
+    },
+    {
+        "identifier": "city-badge",
+        "content": "Génération de ville"
+    },
+    {
+        "identifier": "math-badge",
+        "content": "Mathématique"
+    },
+    {
+        "identifier": "game-badge",
+        "content": "Jeux vidéo"
+    },
+    {
+        "identifier": "resume",
+        "content": "CV"
     }
 ]
