@@ -25,5 +25,13 @@
     {
         "identifier": "language",
         "content": "Langues"
+    },
+    {
+        "identifier": "description-title-project",
+        "content": "Description"
+    },
+    {
+        "identifier": "skill-title-project",
+        "content": "Compétence(s)"
     }
 ]

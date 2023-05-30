@@ -62,6 +62,8 @@ main {
     /* padding: 0; */
     padding-top: 25px;
     /* margin: 0; */
+    overflow-x: hidden;
+    /* width: 100%; */
 }
 
 .advertizing {
