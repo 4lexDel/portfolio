@@ -1,0 +1,29 @@
+[{
+        "identifier": "home",
+        "content": "Home"
+    },
+    {
+        "identifier": "realisation",
+        "content": "Realisations"
+    },
+    {
+        "identifier": "title",
+        "content": "Welcome to my portfolio"
+    },
+    {
+        "identifier": "description",
+        "content": "My name is Alexandre, I am a student at CESI Engineering School.<br>I am currently working at RTE as a WEB developer.<br>I am passionate about IT since the high school."
+    },
+    {
+        "identifier": "project-web",
+        "content": "Web projects"
+    },
+    {
+        "identifier": "project-java",
+        "content": "JAVA projects"
+    },
+    {
+        "identifier": "language",
+        "content": "Languages"
+    }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+</head>
+
+<body>
+    <a href="https://example.com" onclick="addParameter(event, '_blank')">Lien 1 (_blank)</a>
+    <br>
+    <a href="https://example.com" onclick="addParameter(event)">Lien 2 (_self)</a>
+
+    <script>
+        function addLanguageParameter(event, target = "_self") {
+            event.preventDefault(); // Empêche le comportement par défaut du lien
+
+            var url = event.target.href; // Récupère l'URL du lien
+            var parametre = "monParametre=valeur"; // Paramètre à ajouter
+
+            // Vérifie si l'URL contient déjà des paramètres
+            if (url.indexOf('?') !== -1) {
+                // Si oui, ajoute le nouveau paramètre en utilisant "&"
+                url += '&' + parametre;
+            } else {
+                // Sinon, ajoute le nouveau paramètre en utilisant "?"
+                url += '?' + parametre;
+            }
+
+            window.open(url, target);
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/color.css">
+    <link rel="stylesheet" href="assets/style/flexTools.css">
+
+    <script src="assets/lib/jquery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="flex-container flex-row justify-content-between">
+        <div class="profile">
+            <img src="./assets/img/profile.png" width="40px" height="40px" alt="">
+            <a href="./index.html" onclick="addLanguageParameter(event)">Alexandre DELORME</a>
+        </div>
+        <div class="links flex-container flex-row">
+            <ul class="flex-container flex-row">
+                <li>
+                    <a class="active_link" href="index.html" onclick="addLanguageParameter(event)" lang-id="home"></a>
+                </li>
+                <li><a href="assets/src/CV.pdf" target="_blank" onclick="addLanguageParameter(event, '_blank')">CV</a></li>
+                <li>
+                    <a href="realisation.html" onclick="addLanguageParameter(event)" lang-id="realisation"></a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a class="dropbtn" lang-id="language" id="langButton">
+                        </a>
+
+                        <div class="dropdown-content">
+                            <a href="#" id="frButton">
+                                <img src="https://st4.depositphotos.com/12883492/28907/v/450/depositphotos_289075276-stock-illustration-france-flag-brush-painted-france.jpg" width="20" height="15"> FR</a>
+
+                            <a href="#" id="enButton">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" width="20" height="15"> EN</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="flex-container flex-column justify-content-center">
+        <div class="advertizing">
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/alexandre-delorme-39b6671b9/" target="_blank">
+                    <img src="./assets/img/linkedin.svg" alt="Alexandre DELORME Linkedin Profile" width="50px" height="50px">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/4lexDel" target="_blank">
+                    <img src="./assets/img/git.svg" alt="Alexandre DELORME Github Profile" width="50px" height="50px">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="mailto:alexandre.delorme@viacesi.fr?subject=Portfolio">
+                    <img src="./assets/img/email.svg" alt="Mail" width="50px" height="50px">
+                </a>
+            </div>
+        </div>
+        <h1 lang-id="title"></h1>
+        <p lang-id="description"></p>
+        <!-- <h1 class="textprinter" data="Repeat content" delay="50" repeat="true"></h1> -->
+        <!-- <h1 class="textprinter" data="Bienvenue sur mon portfolio" delay="-50" repeat="false"></h1>
+        <p class="textprinter" data="Je m'appelle Alexandre, je suis alternant à CESI Ecole d'ingénieurs.
+        <br>Je travaille actuellement à RTE en tant que développeur WEB.
+        <br>Je suis passionné par l'informatique depuis le lycée." delay-init="3000" delay="-100" repeat="false"></p> -->
+        <!-- <h1 class="textprinter" data="azertyuiopqsdfghjklmwxcvbndqsfdhgjfdsfghthgrfegrthyjhgfdghjgfdghjgfdsfgh" delay="-150"></h1> -->
+        <!--<h1 class="surprise" next-class="textprinter" data="Texte surprise" delay="0"></h1> -->
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./textprinter.js"></script>
+    <script src="assets/lib/lang/languageLoader.js"></script>
+</body>
+
+</html>

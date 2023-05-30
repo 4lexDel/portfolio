@@ -1,0 +1,29 @@
+[{
+        "identifier": "home",
+        "content": "Accueil"
+    },
+    {
+        "identifier": "realisation",
+        "content": "Réalisations"
+    },
+    {
+        "identifier": "title",
+        "content": "Bienvenue sur mon portfolio"
+    },
+    {
+        "identifier": "description",
+        "content": "Je m'appelle Alexandre, je suis alternant à CESI Ecole d'ingénieurs.<br>Je travaille actuellement à RTE en tant que développeur WEB.<br>Je suis passionné par l'informatique depuis le lycée."
+    },
+    {
+        "identifier": "project-web",
+        "content": "Projets Web"
+    },
+    {
+        "identifier": "project-java",
+        "content": "Projets JAVA"
+    },
+    {
+        "identifier": "language",
+        "content": "Langues"
+    }
+]

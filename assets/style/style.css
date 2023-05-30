@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2px 13px;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+header a:hover {
+    color: rgb(175, 28, 58);
+}
+
+.active_link {
+    text-decoration: underline;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.profile img {
+    border-radius: 100%;
+}
+
+.links {
+    margin-right: 25px;
+}
+
+main {
+    background-image: url("../img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-height: 100%;
+    /* padding: 0; */
+    padding-top: 25px;
+    /* margin: 0; */
+}
+
+.advertizing {
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    padding: 0 0 0 0;
+    border-radius: 0 10px 10px 0;
+    top: 150px;
+    left: 0;
+}
+
+.advertizing .icon {
+    padding: 5px;
+}
+
+.advertizing .icon:hover {
+    /* padding: 5px; */
+    background-color: rgb(240, 200, 154);
+    border-radius: 0 10px 10px 0;
+}
+
+h1,
+pre h1 {
+    text-align: center;
+    font-weight: 10;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0; */
+}
+
+.card {
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 1px black;
+    background-color: rgb(220, 220, 220);
+    padding: 5px;
+    margin: 5px;
+}
+
+.card * {
+    margin: 2px;
+}
+
+.label-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.badge {
+    border-radius: 3px;
+    display: block;
+    background-color: rgb(147, 147, 147);
+    width: max-content;
+    padding: 2px 5px;
+    color: white;
+}
+
+
+/* footer {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(89, 89, 89);
+    bottom: 0;
+} */
+
+
+/* #test_ancre {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+
+/* .active {
+    background-color: green !important;
+} */
+
+.dropbtn {
+    border: black 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(192, 192, 192);
+}
