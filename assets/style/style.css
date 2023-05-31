@@ -100,6 +100,27 @@ pre h1 {
     /* margin: 0; */
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 250px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
 .card {
     border: 0px black solid;
     border-radius: 5px;
