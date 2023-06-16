@@ -23,6 +23,10 @@
         "content": "Projets JAVA"
     },
     {
+        "identifier": "project-cesi",
+        "content": "Projets CESI"
+    },
+    {
         "identifier": "language",
         "content": "Langues"
     },
@@ -61,5 +65,152 @@
     {
         "identifier": "resume",
         "content": "CV"
+    },
+
+
+
+    {
+        "identifier": "bobail-title",
+        "content": "Bobail"
+    },
+    {
+        "identifier": "bobail-description",
+        "content": "Jeu Bobail en temps réel. <br>Développement d’un jeu de plateau à 2 joueurs avec spectateurs, gestion d’un système de Room pour gérer plusieurs parties simultanément. <br>Implémentation de l’algorithme MinMax pour créer une IA de niveau intermédiaire (<a target='_blank' href='https://4lexdel.github.io/BobailMinMax/'>lien</a>)."
+    },
+    {
+        "identifier": "pathfinding-title",
+        "content": "Pathfinding"
+    },
+    {
+        "identifier": "pathfinding-description",
+        "content": "Editeur de map quadrillée avec implémentation d’algorithmes de pathfinding (JPS et A*). <br>Comparaison des performances sur des labyrinthes générés aléatoirement avec les méthodes DFS et Fusion."
+    },
+    {
+        "identifier": "todo-title",
+        "content": "Todo liste"
+    },
+    {
+        "identifier": "todo-description",
+        "content": "Développement d’une application Todo Liste avec Angular liée à une API créé sous NodeJS."
+    },
+    {
+        "identifier": "graph-title",
+        "content": "Générateur de graphe"
+    },
+    {
+        "identifier": "graph-description",
+        "content": "Gestionnaire de graphes mathématiques. <br>Génération de villes à l’aide de diagrammes de Voronoï."
+    },
+    {
+        "identifier": "king-title",
+        "content": "King's game"
+    },
+    {
+        "identifier": "king-description",
+        "content": "Jeu multijoueur en temps réel avec un système de chat global."
+    },
+    {
+        "identifier": "automate-title",
+        "content": "Automate cellulaire"
+    },
+    {
+        "identifier": "automate-description",
+        "content": "Développement d’un éditeur de map pour comprendre le concept d’automates cellulaires (exemple avec le jeu de la vie)."
+    },
+    {
+        "identifier": "abalone-title",
+        "content": "Abalone"
+    },
+    {
+        "identifier": "abalone-description",
+        "content": "Jeu de société Abalone développé sur les bases du projet Bobail (présenté plus haut)."
+    },
+    {
+        "identifier": "spacerun-title",
+        "content": "Space Run"
+    },
+    {
+        "identifier": "spacerun-description",
+        "content": "Projet Bac Blanc développé lors de ma spécialité ISN en terminale. <br>Jeu type Space Invader. <br>Objectif : aller le plus loin possible en évitant les astéroïdes."
+    },
+    {
+        "identifier": "idle-title",
+        "content": "Idle"
+    },
+    {
+        "identifier": "idle-description",
+        "content": "Petit jeu de type Idle, l’objectif est d’accumuler le plus de ressources."
+    },
+    {
+        "identifier": "generatorcity-title",
+        "content": "Générateur de villes"
+    },
+    {
+        "identifier": "generatorcity-description",
+        "content": "Génération de villes cohérentes avec routes, rails, maisons. <br>Système de déplacement d’un véhicule pour explorer la carte généré."
+    },
+    {
+        "identifier": "tangram-title",
+        "content": "Solveur de tangram"
+    },
+    {
+        "identifier": "tangram-description",
+        "content": "Solveur de Tangram sur un espace quadrillé. <br>Possibilité de définir le modèle final et les pièces à disposition."
+    },
+    {
+        "identifier": "lagrange-title",
+        "content": "Interpolation de Lagrange"
+    },
+    {
+        "identifier": "lagrange-description",
+        "content": "Implémentation des polynômes interpolateurs de Lagrange. L’utilisateur place les points dans le repère et le programme détermine la fonction passant par tous les points."
+    },
+    {
+        "identifier": "shop-title",
+        "content": "Gestion de ventes"
+    },
+    {
+        "identifier": "shop-description",
+        "content": "Développement d’un logiciel de gestion de ventes (gestion des stocks, personnels, statistiques…)."
+    },
+    {
+        "identifier": "save-title",
+        "content": "Easy Save"
+    },
+    {
+        "identifier": "save-description",
+        "content": "Développement d’un logiciel de sauvegarde (système de sauvegardes différentiel, chiffrement, accès distant…)."
+    },
+    {
+        "identifier": "vrp-title",
+        "content": "TSP / VRP"
+    },
+    {
+        "identifier": "vrp-description",
+        "content": "Développement d’heuristiques et de métaheuristiques (algorithme génétique, colonie de fourmis, tabou…) pour optimiser des trajets de véhicules (problème VRP, TSP)."
+    },
+    {
+        "identifier": "signal-title",
+        "content": "Traitement de signaux"
+    },
+    {
+        "identifier": "signal-description",
+        "content": "Traitement d’onde sonore en python (modulation, démodulation, codage, décodage…)."
+    },
+    {
+        "identifier": "network-title",
+        "content": "Réseaux et systèmes"
+    },
+    {
+        "identifier": "network-description",
+        "content": "Audit d’une infrastructure réseau, conception d’une architecture respectant des contraintes clients. <br>Obtention du CCNA1 (certification CISCO)."
+    },
+    {
+        "identifier": "weather-title",
+        "content": "Station météorologique"
+    },
+    {
+        "identifier": "weather-description",
+        "content": "Création d’une station météorologique avec une carte Arduino et diverses capteurs (température, pression, humidité, GPS…)."
     }
 ]

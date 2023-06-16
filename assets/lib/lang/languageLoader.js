@@ -29,12 +29,16 @@ function chooseLanguage() {
     switch (lang) {
         case "fr":
             loadLanguage("./assets/lib/lang/fr.json");
-            $("#langButton").css("background-color", "#5299FF");
+            // $("#langButton").css("background-color", "#5299FF");
+            $(".dropdown").css("background-image", `url("https://st4.depositphotos.com/12883492/28907/v/450/depositphotos_289075276-stock-illustration-france-flag-brush-painted-france.jpg")`);
+
             break;
 
         case "en":
             loadLanguage("./assets/lib/lang/en.json");
-            $("#langButton").css("background-color", "#FF5454");
+            // $("#langButton").css("background-color", "#FF5454");
+            $(".dropdown").css("background-image", `url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png")`);
+
             break;
     }
 

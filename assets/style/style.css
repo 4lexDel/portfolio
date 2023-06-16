@@ -100,6 +100,12 @@ pre h1 {
     /* margin: 0; */
 }
 
+@media (max-width: 690px) {
+    .card {
+        width: 310px;
+    }
+}
+
 @media (max-width: 500px) {
     h1 {
         font-size: 60px;
@@ -129,10 +135,24 @@ pre h1 {
     /* rgb(224 198 175) */
     padding: 5px;
     margin: 5px;
+    /* width: 250px;
+    height: 250px; */
+}
+
+.card-content {
+    overflow-y: auto;
+    width: 350px;
+    height: 300px;
 }
 
 .card * {
     margin: 2px;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: #FF9800;
+    border-radius: 20px;
 }
 
 .label-title {
@@ -171,21 +191,30 @@ pre h1 {
     background-color: green !important;
 } */
 
+#langButton {
+    background-color: #ffffff87;
+}
+
 .dropbtn {
     border: black 1px solid;
     border-radius: 4px;
     cursor: pointer;
+    /* background-image: url("https://st4.depositphotos.com/12883492/28907/v/450/depositphotos_289075276-stock-illustration-france-flag-brush-painted-france.jpg"); */
+    /* background-position: center; */
+    /* background-color: rgb(195, 195, 195); */
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
