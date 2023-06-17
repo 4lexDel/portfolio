@@ -47,6 +47,14 @@
         "content": "Algorithm"
     },
     {
+        "identifier": "heuristic-badge",
+        "content": "Heuristic"
+    },
+    {
+        "identifier": "network-badge",
+        "content": "Network"
+    },
+    {
         "identifier": "tree-badge",
         "content": "Decision tree"
     },
@@ -63,18 +71,24 @@
         "content": "Video games"
     },
     {
+        "identifier": "ai-badge",
+        "content": "AI"
+    },
+    {
+        "identifier": "maze-badge",
+        "content": "Maze"
+    },
+    {
         "identifier": "resume",
         "content": "Resume"
     },
-
-
     {
         "identifier": "bobail-title",
         "content": "Bobail"
     },
     {
         "identifier": "bobail-description",
-        "content": "Real-time Bobail game. <br>Development of a 2-player board game with spectators, management of a Room system to handle multiple games simultaneously. <br>Implementation of the MinMax algorithm to create an intermediate-level AI (<a target='_blank' href='https://4lexdel.github.io/BobailMinMax/'>link</a>)."
+        "content": "Development of a 2-player board game with spectators, management of a Room system to handle multiple games simultaneously. <br>Implementation of the MinMax algorithm to create an intermediate-level AI (<a target='_blank' href='https://4lexdel.github.io/BobailMinMax/'>link</a>)."
     },
     {
         "identifier": "pathfinding-title",

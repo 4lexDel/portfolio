@@ -47,6 +47,14 @@
         "content": "Algorithme"
     },
     {
+        "identifier": "heuristic-badge",
+        "content": "Heuristique"
+    },
+    {
+        "identifier": "network-badge",
+        "content": "Réseaux"
+    },
+    {
         "identifier": "tree-badge",
         "content": "Arbre de décision"
     },
@@ -63,19 +71,24 @@
         "content": "Jeux vidéo"
     },
     {
+        "identifier": "ai-badge",
+        "content": "IA"
+    },
+    {
+        "identifier": "maze-badge",
+        "content": "Labyrinthe"
+    },
+    {
         "identifier": "resume",
         "content": "CV"
     },
-
-
-
     {
         "identifier": "bobail-title",
         "content": "Bobail"
     },
     {
         "identifier": "bobail-description",
-        "content": "Jeu Bobail en temps réel. <br>Développement d’un jeu de plateau à 2 joueurs avec spectateurs, gestion d’un système de Room pour gérer plusieurs parties simultanément. <br>Implémentation de l’algorithme MinMax pour créer une IA de niveau intermédiaire (<a target='_blank' href='https://4lexdel.github.io/BobailMinMax/'>lien</a>)."
+        "content": "Développement d’un jeu de plateau à 2 joueurs avec spectateurs, gestion d’un système de Room pour gérer plusieurs parties simultanément. <br>Implémentation de l’algorithme MinMax pour créer une IA de niveau intermédiaire (<a target='_blank' href='https://4lexdel.github.io/BobailMinMax/'>lien</a>)."
     },
     {
         "identifier": "pathfinding-title",
