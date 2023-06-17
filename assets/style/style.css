@@ -150,6 +150,14 @@ pre h1 {
 }
 
 .card h2 {
+    color: rgb(33, 33, 33);
+}
+
+.no-style {
+    text-decoration: none;
+}
+
+.card h2 {
     text-align: center;
     background-color: #FF9800;
     border-radius: 10px;
