@@ -55,6 +55,10 @@
         "content": "Network"
     },
     {
+        "identifier": "electronics-badge",
+        "content": "Electronics"
+    },
+    {
         "identifier": "tree-badge",
         "content": "Decision tree"
     },
