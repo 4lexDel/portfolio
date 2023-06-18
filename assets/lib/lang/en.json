@@ -31,6 +31,10 @@
         "content": "Languages"
     },
     {
+        "identifier": "project-button",
+        "content": "Projects"
+    },
+    {
         "identifier": "description-title-project",
         "content": "Description"
     },

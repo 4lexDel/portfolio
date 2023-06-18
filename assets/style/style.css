@@ -16,6 +16,20 @@ p {
     font-size: 20px;
 }
 
+button {
+    background-color: #ff990068;
+    padding: 10px 50px;
+    border: #ff5e00 3px dashed;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 149, 255, 0.433);
+    border: rgba(0, 62, 197, 0.433) 3px dashed;
+    cursor: pointer;
+}
+
 header {
     position: relative;
     text-decoration: none;
@@ -94,7 +108,7 @@ main {
 h1,
 pre h1 {
     text-align: center;
-    font-weight: 10;
+    font-weight: lighter;
     font-size: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* margin: 0; */

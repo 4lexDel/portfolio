@@ -55,10 +55,11 @@ async function loadLanguage(fileName) {
         });
 }
 
-function addLanguageParameter(event, target = "_self") { //Ajoute la langue
+function addLanguageParameter(event, target = "_self", newLink = undefined) { //Ajoute la langue
+    console.log(event);
     event.preventDefault(); // Empêche le comportement par défaut du lien
 
-    var url = event.target.href; // Récupère l'URL du lien
+    var url = newLink ? newLink : event.target.href; // Récupère l'URL du lien
     var parametre = `lang=${lang}`; // Paramètre à ajouter
 
     // Vérifie si l'URL contient déjà des paramètres
