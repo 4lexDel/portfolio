@@ -25,7 +25,7 @@
         <div class="links flex-container flex-row">
             <ul class="flex-container flex-row">
                 <li>
-                    <a class="active_link" href="index.html" onclick="addLanguageParameter(event)" lang-id="home"></a>
+                    <a href="index.html" onclick="addLanguageParameter(event)" lang-id="home"></a>
                 </li>
                 <li>
                     <a href="assets/src/CV.pdf" target="_blank" onclick="addLanguageParameter(event, '_blank')" lang-id="resume"></a>
@@ -34,7 +34,7 @@
                     <a href="realisation.html" onclick="addLanguageParameter(event)" lang-id="realisation"></a>
                 </li>
                 <li>
-                    <a href="about-me.html" onclick="addLanguageParameter(event)" lang-id="about-me"></a>
+                    <a class="active_link" href="about-me.html" onclick="addLanguageParameter(event)" lang-id="about-me"></a>
                 </li>
                 <li>
                     <div class="dropdown">
@@ -72,13 +72,18 @@
                 </a>
             </div>
         </div>
-        <h1 lang-id="title"></h1>
+        <h1 lang-id="about-me"></h1>
+        <p lang-id="description"></p>
 
-        <div class="flex-row justify-content-around">
-            <button onclick="addLanguageParameter(event, '_self', 'realisation.html')" lang-id="project-button"></button>
-            <button onclick="addLanguageParameter(event, '_self', 'about-me.html')" lang-id="about-me"></button>
-        </div>
+        <br>
 
+        <h1 lang-id="experience-title"></h1>
+        <p lang-id="experience"></p>
+
+        <br>
+
+        <h1 lang-id="futur-title"></h1>
+        <p lang-id="futur"></p>
     </main>
 
     <footer>

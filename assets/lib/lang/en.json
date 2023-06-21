@@ -12,7 +12,27 @@
     },
     {
         "identifier": "description",
-        "content": "My name is Alexandre, I am a student at CESI Graduate School of Engineering.<br>I am currently working at RTE as a WEB developer.<br>I am passionate about IT since the high school."
+        "content": "My name is Alexandre, I am a student at CESI Graduate School of Engineering.<br>I am currently working at RTE as a WEB developer.<br>I am passionate about programming since high school."
+    },
+    {
+        "identifier": "about-me",
+        "content": "About me"
+    },
+    {
+        "identifier": "experience-title",
+        "content": "My experience"
+    },
+    {
+        "identifier": "futur-title",
+        "content": "Future careers"
+    },
+    {
+        "identifier": "experience",
+        "content": "My personal projects and my years at CESI Ecole d'Ingénieurs, have enabled me to perfect my IT skills, as well as my rigorous work ethic, which is essential for an engineer.<br>I was able to apply these skills in a company through an internship during my second year of preparatory studies.<br>Currently on apprenticeship, I'm contributing to the development of an internal application that is essential to the company."
+    },
+    {
+        "identifier": "futur",
+        "content": "<ul><li><strong>Full stack developer:</strong> to apply my experience and skills in a company, and to keep up to date with new technologies.</li><li><strong>Teacher/trainer:</strong> once I've acquired enough experience as a developer, I'd like to be able to teach others my knowledge, either in higher education or in a company as a trainer.</li></ul>"
     },
     {
         "identifier": "project-web",

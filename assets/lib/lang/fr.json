@@ -12,7 +12,27 @@
     },
     {
         "identifier": "description",
-        "content": "Je m'appelle Alexandre, je suis alternant à CESI Ecole d'ingénieurs.<br>Je travaille actuellement à RTE en tant que développeur WEB.<br>Je suis passionné par l'informatique depuis le lycée."
+        "content": "Je m'appelle Alexandre, je suis alternant à CESI Ecole d'ingénieurs.<br>Je travaille actuellement à RTE en tant que développeur WEB.<br>Je suis passionné par la programmation depuis le lycée."
+    },
+    {
+        "identifier": "about-me",
+        "content": "A propos de moi"
+    },
+    {
+        "identifier": "experience-title",
+        "content": "Mon expérience"
+    },
+    {
+        "identifier": "experience",
+        "content": "Mes projets personnels ainsi que mes années à CESI Ecole d'ingénieurs, m'ont permis de perfectionner mes compétences en informatique, aini que ma rigueur de travail essentiel pour un ingénieur.<br>J'ai pu appliquer ces dernières en entreprise par le biais d'un stage lors de ma deuxième année en cycle préparatoire.<br>Actuellement en alternance, j'apporte ma contribution au développement d'une application interne essentiel à l'entreprise."
+    },
+    {
+        "identifier": "futur",
+        "content": "<ul><li><strong>Développeur full stack :</strong> pour appliquer mon expérience et mes compétences en entreprise, et pour me perfectionner sur de nouvelles technologies.</li><li><strong>Enseignant/formateur :</strong> après avoir acquis suffisamment d'expérience en tant que développeur, j'aimerais pouvoir transmettre mon savoir, au travers de l'enseignement dans le supérieur, ou bien en entreprise en tant que formateur.</li></ul>"
+    },
+    {
+        "identifier": "futur-title",
+        "content": "Projets pour le futur"
     },
     {
         "identifier": "project-web",
