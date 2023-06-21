@@ -12,19 +12,19 @@
     },
     {
         "identifier": "description",
-        "content": "My name is Alexandre, I am a student at CESI Graduate School of Engineering.<br>I am currently working at RTE as a WEB developer.<br>I am passionate about programming since high school."
+        "content": "My name is Alexandre, I am a student at CESI Graduate School of Engineering.<br>I am currently working at RTE as a WEB developer.<br>I have been passionated about programming since high school."
     },
     {
         "identifier": "about-me",
-        "content": "About me"
+        "content": "About Me"
     },
     {
         "identifier": "experience-title",
-        "content": "My experience"
+        "content": "Experience"
     },
     {
         "identifier": "futur-title",
-        "content": "Future careers"
+        "content": "Future Objective"
     },
     {
         "identifier": "experience",
