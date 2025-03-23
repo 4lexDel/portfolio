@@ -1,6 +1,0 @@
-#--------Ergonomie--------#
-
-- Langues
-    - Changement de lien => langue refresh !! => [Mettre un parametre dans la requete HTTP]
-    - Afficher la langue sélectionné
-    - CV chargé en fct de la langue
