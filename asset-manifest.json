@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6929d92a.css",
-    "main.js": "/portfolio/static/js/main.2d6f62cf.js",
+    "main.css": "/portfolio/static/css/main.d14a9758.css",
+    "main.js": "/portfolio/static/js/main.050c8b5f.js",
     "static/media/graph.png": "/portfolio/static/media/graph.7f2d152c02edc4ce3faf.png",
     "static/media/space-run.png": "/portfolio/static/media/space-run.d3317d4729147f3aadf3.png",
     "static/media/idle.png": "/portfolio/static/media/idle.de5d7884e785e6089370.png",
@@ -27,15 +27,18 @@
     "static/media/fool-driver.png": "/portfolio/static/media/fool-driver.94ac450f05c43c5f5fff.png",
     "static/media/RTELogo.png": "/portfolio/static/media/RTELogo.d723f4be7670831f87da.png",
     "static/media/universiteNantesLogo.png": "/portfolio/static/media/universiteNantesLogo.46561efa767c4bfec032.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/automate-cellulaire.png": "/portfolio/static/media/automate-cellulaire.a0f06bd84e6cefe6cf93.png",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/resume.pdf": "/portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/portfolio/index.html",
-    "main.6929d92a.css.map": "/portfolio/static/css/main.6929d92a.css.map",
-    "main.2d6f62cf.js.map": "/portfolio/static/js/main.2d6f62cf.js.map"
+    "main.d14a9758.css.map": "/portfolio/static/css/main.d14a9758.css.map",
+    "main.050c8b5f.js.map": "/portfolio/static/js/main.050c8b5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6929d92a.css",
-    "static/js/main.2d6f62cf.js"
+    "static/css/main.d14a9758.css",
+    "static/js/main.050c8b5f.js"
   ]
 }
