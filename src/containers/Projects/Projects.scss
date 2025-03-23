@@ -3,7 +3,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 200px;
 }
 .card-title {
   color: $titleColor;
@@ -18,10 +18,13 @@
   line-height: 1.5rem;
 }
 .project-card {
+  min-width: 250px;
+  width: 250px;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   background-color: $lightBackground2;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
@@ -59,9 +62,10 @@
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 10px; 
 }
 
 .project-card-footer span.project-tag {
@@ -72,12 +76,12 @@
   border-radius: 4px;
   display: inline-flex;
   font-size: 0.75rem;
-  height: 2em;
+  height: 1em;
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;
   margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  padding: 0.5em 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
