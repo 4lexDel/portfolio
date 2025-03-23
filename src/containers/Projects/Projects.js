@@ -1,10 +1,31 @@
 import React, {useContext} from "react";
-import "./Projects.scss";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import {projectSections} from "../../portfolio";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import "./Projects.scss";
 
 export default function Projects() {
+  const responsive = {
+    desktop: {
+      breakpoint: {max: 3000, min: 1024},
+      items: 3,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: {max: 1024, min: 760},
+      items: 2,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: {max: 760, min: 0},
+      items: 1,
+      slidesToSlide: 1,
+    }
+  };
+
   function openUrlInNewTab(url) {
     if (!url) {
       return;
@@ -33,63 +54,29 @@ export default function Projects() {
               </p>
 
               <div className="projects-container">
-                {projectSection.projects.map((project, i) => {
-                  return (
-                    <div
+                <Carousel
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
+                  responsive={responsive}
+                  infinite={true}
+                  autoPlaySpeed={1000}
+                  keyBoardControl={true}
+                  customTransition="all .5s"
+                  transitionDuration={500}
+                  containerClass="carousel-container"
+                  dotListClass="custom-dot-list-style"
+                  // centerMode={true}
+                >
+                  {projectSection.projects.map((project, i) => (
+                    <ProjectCard
                       key={i}
-                      className={
-                        isDark
-                          ? "dark-mode project-card project-card-dark"
-                          : "project-card project-card-light"
-                      }
-                    >
-                      {project.image ? (
-                        <div className="project-image">
-                          <img
-                            src={project.image}
-                            alt={project.projectName}
-                            className="card-image"
-                          ></img>
-                        </div>
-                      ) : null}
-                      <div className="project-detail">
-                        <h5
-                          className={
-                            isDark ? "dark-mode card-title" : "card-title"
-                          }
-                        >
-                          {project.projectName}
-                        </h5>
-                        <p
-                          className={
-                            isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                          }
-                        >
-                          {project.projectDesc}
-                        </p>
-                        {project.footerLink ? (
-                          <div className="project-card-footer">
-                            {project.footerLink.map((link, i) => {
-                              return (
-                                <span
-                                  key={i}
-                                  className={
-                                    isDark
-                                      ? "dark-mode project-tag"
-                                      : "project-tag"
-                                  }
-                                  onClick={() => openUrlInNewTab(link.url)}
-                                >
-                                  {link.name}
-                                </span>
-                              );
-                            })}
-                          </div>
-                        ) : null}
-                      </div>
-                    </div>
-                  );
-                })}
+                      project={project}
+                      isDark={isDark}
+                      openUrlInNewTab={openUrlInNewTab}
+                    />
+                  ))}
+                </Carousel>
               </div>
             </div>
           );

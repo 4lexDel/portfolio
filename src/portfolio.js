@@ -178,7 +178,7 @@ const personalProjects = {
       image: require("./assets/images/bobail.png"),
       projectName: "Bobail",
       projectDesc:
-        "Development of a 2-player board game with spectators, management of a Room system to handle multiple games simultaneously. Implementation of the MinMax algorithm to create an intermediate-level AI.",
+        "Development of a 2-player board game, management of a Room system. Implementation of the MinMax algorithm to create an intermediate-level AI.",
       footerLink: [
         {
           name: "Source code",
