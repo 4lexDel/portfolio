@@ -7,7 +7,6 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
   resumeSection,
   educationInfo
 } from "../../portfolio";
@@ -16,7 +15,6 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewResume = resumeSection.display;
 
@@ -52,7 +50,7 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {(
             <li>
               <a href="#projects">Projects</a>
             </li>
