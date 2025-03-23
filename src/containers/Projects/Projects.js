@@ -20,7 +20,7 @@ export default function Projects() {
       <div className="main" id="projects">
         {projectSections.map((projectSection, i) => {
           return (
-            <div>
+            <div key={i}>
               <h1 className="skills-heading">{projectSection.title}</h1>
               <p
                 className={
