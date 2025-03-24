@@ -1,5 +1,26 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
+import figmaLogo from "./assets/images/figma.svg";
+import reactLogo from "./assets/images/react.svg";
+import cppLogo from "./assets/images/cpp.svg";
+import cLogo from "./assets/images/c.svg";
+import csharpLogo from "./assets/images/csharp.svg";
+import angularLogo from "./assets/images/angular.svg";
+import djangoLogo from "./assets/images/django.svg";
+import jenkinsLogo from "./assets/images/jenkins.svg";
+import jiraLogo from "./assets/images/jira.svg";
+import gitLogo from "./assets/images/git.svg";
+import javaLogo from "./assets/images/java.svg";
+import nestjsLogo from "./assets/images/nestjs.svg";
+import nodeJSLogo from "./assets/images/nodejs.svg";
+import sonarLogo from "./assets/images/sonar.svg";
+import phpLogo from "./assets/images/php.svg";
+import pythonLogo from "./assets/images/python.svg";
+import quarkusLogo from "./assets/images/quarkus.svg";
+import umlLogo from "./assets/images/uml.svg";
+import sqlLogo from "./assets/images/sql.svg";
+import typescriptLogo from "./assets/images/typescript.svg";
+import arduinoLogo from "./assets/images/arduino.svg";
 
 // Splash Screen
 const splashScreen = {
@@ -40,6 +61,29 @@ const skillsSection = {
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
+  ],
+  technologySkills: [
+    {name: "Figma", image: figmaLogo},
+    {name: "React", image: reactLogo},
+    {name: "C++", image: cppLogo},
+    {name: "C", image: cLogo},
+    {name: "C#", image: csharpLogo},
+    {name: "Angular", image: angularLogo},
+    {name: "Django", image: djangoLogo},
+    {name: "Jenkins", image: jenkinsLogo},
+    {name: "Jira", image: jiraLogo},
+    {name: "Git", image: gitLogo},
+    {name: "Java", image: javaLogo},
+    {name: "Nestjs", image: nestjsLogo},
+    {name: "NodeJS", image: nodeJSLogo},
+    {name: "Sonar", image: sonarLogo},
+    {name: "Php", image: phpLogo},
+    {name: "Python", image: pythonLogo},
+    {name: "Quarkus", image: quarkusLogo},
+    {name: "Uml", image: umlLogo},
+    {name: "Sql", image: sqlLogo},
+    {name: "Typescript", image: typescriptLogo},
+    {name: "Arduino", image: arduinoLogo},
   ],
 
   // https://fontawesome.com/icons?d=gallery
