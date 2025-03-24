@@ -253,6 +253,18 @@ const personalProjects = {
       ]
     },
     {
+      image: require("./assets/images/didactikRobot.png"),
+      projectName: "DidactikRobot",
+      projectDesc:
+        "Development of a pedagogical platform for learning the programming logic.",
+      footerLink: [
+        {
+          name: "Code source",
+          url: "https://github.com/4lexDel/Didactik-robot.git"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/todo-app.png"),
       projectName: "Angular app",
       projectDesc:
@@ -295,7 +307,7 @@ const personalProjects = {
       image: require("./assets/images/abalone.png"),
       projectName: "Abalone",
       projectDesc:
-        "Abalone board game developed on the basis of the Bobail project (presented above).",
+        "Abalone board game developed on the basis of the Bobail project (presented before).",
       footerLink: [
         {
           name: "Code source",
@@ -392,8 +404,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi?",
-  number: "+33-0000000000",
+  subtitle: "Discuss a project or just want to get more informations about me?",
+  number: "+33-0606060606",
   email_address: "alexandre.delorme@viacesi.fr"
 };
 
