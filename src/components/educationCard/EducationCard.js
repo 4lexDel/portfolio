@@ -55,6 +55,9 @@ export default function EducationCard({school}) {
                 {school.duration}
               </p>
               <p className="education-text-desc">{school.desc}</p>
+              {school.link && 
+                <a href={school.link.url} target="_blank" rel="noreferrer" >{school.link.name}</a>
+              }
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />

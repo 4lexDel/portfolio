@@ -1,4 +1,3 @@
 TODO
 https://devicon.dev/
-
-add didactik robot
+https://lottiefiles.com/featured-free-animations

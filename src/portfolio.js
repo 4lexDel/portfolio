@@ -123,6 +123,24 @@ const educationInfo = {
       subHeader: "School of Engineering in Computer Science",
       duration: "September 2020 - September 2025",
       desc: "Team projects / Apprenticeship / Internships / Experience abroad"
+    },
+    {
+      schoolName: "Toeic - 895/990",
+      logo: require("./assets/images/toeic.png"),
+      subHeader: "Toeic certification passed",
+      duration: "January 2025",
+      desc: "B2 level in English",
+      link: {
+        name: "Score report",
+        url: "https://www.etsglobal.org/fr/en/digital-score-report/3FA6DD81420F61FD4A78FB82538ED3C6828ADED4389116D63C5DDF936F3E230ASndLSlNoNktoRW5DbGpVUUhlZnhWdkJtZzBwWk1NWHNZM3pFdnBsclIzTEUxSFpr"
+      }
+    },
+    {
+      schoolName: "CCNA1 - CISCO",
+      logo: require("./assets/images/ccna.png"),
+      subHeader: "CCNA1 certification passed",
+      duration: "April 2022",
+      desc: "Networks and systems concepts comprehension"
     }
   ]
 };
@@ -155,32 +173,28 @@ const workExperiences = {
       company: "RTE",
       companylogo: require("./assets/images/RTELogo.png"),
       date: "September 2022 – October 2025",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Web developer at RTE Réseau de Transport d'Electricité, Development of an internal application as part of a team working using the SCRUM Agile method. "
     },
     {
       role: "Fullstack developer Intern",
       company: "Lunatech",
       companylogo: require("./assets/images/LunatechLogo.png"),
-      date: "July 2024 – October 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "July 2024 - October 2024",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "LS2N laboratory",
       companylogo: require("./assets/images/universiteNantesLogo.png"),
-      date: "May 2024 – July 2024",
+      date: "May 2024 - July 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     },
     {
       role: "Python developer Intern",
       company: "DGA",
       companylogo: require("./assets/images/DGALogo.png"),
-      date: "April 2022 – July 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "April 2022 - July 2022",
+      desc: "Development in Python of an automatic Word report generation solution, based on test results provided by TestLink."
     }
   ]
 };
