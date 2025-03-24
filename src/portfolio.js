@@ -175,18 +175,18 @@ const personalProjects = {
   title: "My personal projects",
   projects: [
     {
-      image: require("./assets/images/bobail.png"),
-      projectName: "Bobail",
+      image: require("./assets/images/tangram.png"),
+      projectName: "Tangram solver",
       projectDesc:
-        "Development of a 2-player board game, management of a Room system. Implementation of the MinMax algorithm to create an intermediate-level AI.",
+        "Tangram solver on grid space. Define final model and solve it.",
       footerLink: [
         {
-          name: "Source code",
-          url: "https://github.com/4lexDel/bobail-online.git/"
+          name: "Code source",
+          url: "https://github.com/4lexDel/tangram-solver.git/"
         },
         {
           name: "Visit website",
-          url: "https://4lexdel.github.io/BobailMinMax/"
+          url: "https://4lexdel.github.io/tangram-solver/"
         }
       ]
     },
@@ -203,6 +203,38 @@ const personalProjects = {
         {
           name: "Visit website",
           url: "https://4lexdel.github.io/pathFinding-version-serveur/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bobail.png"),
+      projectName: "Bobail",
+      projectDesc:
+        "Development of a 2-player board game, management of a Room system. Implementation of the MinMax algorithm to create an intermediate-level AI.",
+      footerLink: [
+        {
+          name: "Source code",
+          url: "https://github.com/4lexDel/bobail-online.git/"
+        },
+        {
+          name: "Visit website",
+          url: "https://4lexdel.github.io/BobailMinMax/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/automate-cellulaire.png"),
+      projectName: "Cellular automaton",
+      projectDesc:
+        "Development of a map editor to understand the concept of cellular automata (example with the game of life).",
+      footerLink: [
+        {
+          name: "Code source",
+          url: "https://github.com/4lexDel/advanced-game-of-life.git/"
+        },
+        {
+          name: "Visit website",
+          url: "https://4lexdel.github.io/GameLibs/"
         }
       ]
     },
@@ -246,22 +278,6 @@ const personalProjects = {
       ]
     },
     {
-      image: require("./assets/images/automate-cellulaire.png"),
-      projectName: "Cellular automaton",
-      projectDesc:
-        "Development of a map editor to understand the concept of cellular automata (example with the game of life).",
-      footerLink: [
-        {
-          name: "Code source",
-          url: "https://github.com/4lexDel/advanced-game-of-life.git/"
-        },
-        {
-          name: "Visit website",
-          url: "https://4lexdel.github.io/GameLibs/"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/abalone.png"),
       projectName: "Abalone",
       projectDesc:
@@ -276,23 +292,7 @@ const personalProjects = {
           url: "https://4lexdel.github.io/abalone/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/tangram.png"),
-      projectName: "Tangram solver",
-      projectDesc:
-        "Tangram solver on grid space. Define final model and solve it.",
-      footerLink: [
-        {
-          name: "Code source",
-          url: "https://github.com/4lexDel/tangram-solver.git/"
-        },
-        {
-          name: "Visit website",
-          url: "https://4lexdel.github.io/tangram-solver/"
-        }
-      ]
-    }
+    }    
   ]
 };
 
