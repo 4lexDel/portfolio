@@ -2,8 +2,10 @@
 
 .skills-main-div {
   display: flex;
+  align-items: center;
   width: 100%;
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .skills-text-div {
@@ -23,6 +25,7 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+  text-align: center;
 }
 .subTitle {
   color: $subTitle;

@@ -1,12 +1,18 @@
 @import "../../_globalColor";
 
-.dev-icons {
+.dev-skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
   padding-left: 0;
-  list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
   text-align: center;
+}
+
+@media (max-width: 440px) {
+  .dev-skills-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .software-skill-inline {
@@ -33,4 +39,13 @@
 .software-skill-inline > img {
   width: 50px;
   height: 50px;
+}
+
+.skills-text-subtitle {
+  font-size: 16px;
+  text-align: center;
+}
+
+.skill-section {
+  max-width: 270px;
 }

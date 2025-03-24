@@ -6,7 +6,7 @@ import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
   workExperiences,
-  skillsSection,
+  skillsContent,
   resumeSection,
   educationInfo
 } from "../../portfolio";
@@ -15,7 +15,7 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
-  const viewSkills = skillsSection.display;
+  const viewSkills = skillsContent.display;
   const viewResume = resumeSection.display;
 
   return (

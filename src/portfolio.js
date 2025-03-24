@@ -21,6 +21,9 @@ import umlLogo from "./assets/images/uml.svg";
 import sqlLogo from "./assets/images/sql.svg";
 import typescriptLogo from "./assets/images/typescript.svg";
 import arduinoLogo from "./assets/images/arduino.svg";
+import htmlLogo from "./assets/images/html.svg";
+import cssLogo from "./assets/images/css.svg";
+import jsLogo from "./assets/images/javascript.svg";
 
 // Splash Screen
 const splashScreen = {
@@ -50,95 +53,62 @@ const socialMediaLinks = {
   display: true
 };
 
-const skillsSection = {
+const skillsContent = {
   title: "What I do",
-  subTitle: "TODO",
+  subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    )
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    // )
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
   ],
-  technologySkills: [
-    {name: "Figma", image: figmaLogo},
-    {name: "React", image: reactLogo},
-    {name: "C++", image: cppLogo},
-    {name: "C", image: cLogo},
-    {name: "C#", image: csharpLogo},
-    {name: "Angular", image: angularLogo},
-    {name: "Django", image: djangoLogo},
-    {name: "Jenkins", image: jenkinsLogo},
-    {name: "Jira", image: jiraLogo},
-    {name: "Git", image: gitLogo},
-    {name: "Java", image: javaLogo},
-    {name: "Nestjs", image: nestjsLogo},
-    {name: "NodeJS", image: nodeJSLogo},
-    {name: "Sonar", image: sonarLogo},
-    {name: "Php", image: phpLogo},
-    {name: "Python", image: pythonLogo},
-    {name: "Quarkus", image: quarkusLogo},
-    {name: "Uml", image: umlLogo},
-    {name: "Sql", image: sqlLogo},
-    {name: "Typescript", image: typescriptLogo},
-    {name: "Arduino", image: arduinoLogo},
-  ],
-
-  // https://fontawesome.com/icons?d=gallery
-  softwareSkills: [
+  skillsSections: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      title: "Backend",
+      data: [
+        {name: "SQL", image: sqlLogo},
+        {name: "Django", image: djangoLogo},
+        {name: "NodeJS", image: nodeJSLogo},
+        {name: "Quarkus", image: quarkusLogo},
+        {name: "Php", image: phpLogo},
+        {name: "Nestjs", image: nestjsLogo}
+      ]
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      title: "Frontend",
+      data: [
+        {name: "HTML", image: htmlLogo},
+        {name: "CSS", image: cssLogo},
+        {name: "Javascript", image: jsLogo},
+        {name: "Typescript", image: typescriptLogo},
+        {name: "Angular", image: angularLogo},
+        {name: "React", image: reactLogo}
+      ]
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      title: "DevOps & Conception",
+      data: [
+        {name: "Jenkins", image: jenkinsLogo},
+        {name: "Git", image: gitLogo},
+        {name: "Sonar", image: sonarLogo},
+        {name: "UML", image: umlLogo},
+        {name: "Figma", image: figmaLogo},
+        {name: "Jira", image: jiraLogo}
+      ]
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      title: "Other languages",
+      data: [
+        {name: "Python", image: pythonLogo},
+        {name: "C", image: cLogo},
+        {name: "C++", image: cppLogo},
+        {name: "C#", image: csharpLogo},
+        {name: "Java", image: javaLogo},
+        {name: "Arduino", image: arduinoLogo}
+      ]
     }
   ],
   display: true
@@ -434,7 +404,7 @@ export {
   greeting,
   socialMediaLinks,
   splashScreen,
-  skillsSection,
+  skillsContent,
   educationInfo,
   techStack,
   workExperiences,
