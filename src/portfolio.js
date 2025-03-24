@@ -263,7 +263,7 @@ const personalProjects = {
     },
     {
       image: require("./assets/images/abalone.png"),
-      projectName: "Cellular automaton",
+      projectName: "Abalone",
       projectDesc:
         "Abalone board game developed on the basis of the Bobail project (presented above).",
       footerLink: [
