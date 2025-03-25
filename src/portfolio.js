@@ -169,21 +169,21 @@ const workExperiences = {
       company: "RTE",
       companylogo: require("./assets/images/RTELogo.png"),
       date: "September 2022 – October 2025",
-      desc: "Web developer at RTE Réseau de Transport d'Electricité, Development of an internal application as part of a team working using the SCRUM Agile method. "
+      desc: "Web developer at RTE Réseau de Transport d'Electricité. Development of an internal application as part of a team working using the SCRUM Agile method. "
     },
     {
       role: "Fullstack developer Intern",
       company: "Lunatech",
       companylogo: require("./assets/images/LunatechLogo.png"),
       date: "July 2024 - October 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Use of the Quarkus framework to develop an internal solution. Requested Jamf and Slack APIs to control the laptops remotely."
     },
     {
       role: "Software Engineer Intern",
       company: "LS2N laboratory",
       companylogo: require("./assets/images/universiteNantesLogo.png"),
       date: "May 2024 - July 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Use of xAPI protocol to process Java and Kotlin unit tests result reports. Application of Python statistical study to identify learner weaknesses & strengths.",
     },
     {
       role: "Python developer Intern",
@@ -415,7 +415,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to get more informations about me?",
-  number: "+33-0606060606",
+  number: "",//+33-0606060606
   email_address: "alexandre.delorme@viacesi.fr"
 };
 
