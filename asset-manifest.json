@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0e8a186a.css",
-    "main.js": "/portfolio/static/js/main.397b4c0b.js",
+    "main.css": "/portfolio/static/css/main.8b3e79b3.css",
+    "main.js": "/portfolio/static/js/main.14ce1675.js",
     "static/media/graph.png": "/portfolio/static/media/graph.7f2d152c02edc4ce3faf.png",
     "static/media/space-run.png": "/portfolio/static/media/space-run.d3317d4729147f3aadf3.png",
     "static/media/idle.png": "/portfolio/static/media/idle.de5d7884e785e6089370.png",
@@ -19,12 +19,9 @@
     "static/media/signal.png": "/portfolio/static/media/signal.3e5649ca65e7834de637.png",
     "static/media/bobail.png": "/portfolio/static/media/bobail.9d6f375e142d0eabb233.png",
     "static/media/todo-app.png": "/portfolio/static/media/todo-app.838af86a78a27720a6d5.png",
-    "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/didactikRobot.png": "/portfolio/static/media/didactikRobot.34fcb2c72488e483890f.png",
     "static/media/tangram.png": "/portfolio/static/media/tangram.8e474ffaaee5f3c00511.png",
     "static/media/temps-reel.png": "/portfolio/static/media/temps-reel.86b16099da62514e86db.png",
-    "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/interpolation-lagrange.png": "/portfolio/static/media/interpolation-lagrange.f851edc44682bfb73254.png",
     "static/media/cesiLogo.png": "/portfolio/static/media/cesiLogo.73890b8413a9eb649988.png",
     "static/media/fool-driver.png": "/portfolio/static/media/fool-driver.94ac450f05c43c5f5fff.png",
@@ -34,7 +31,6 @@
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/automate-cellulaire.png": "/portfolio/static/media/automate-cellulaire.a0f06bd84e6cefe6cf93.png",
-    "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nestjs.svg": "/portfolio/static/media/nestjs.8378e2eb9ae101d3c151afb78c972ed5.svg",
     "static/media/nodejs.svg": "/portfolio/static/media/nodejs.a560a6573db18047caefb78d9eda86cc.svg",
@@ -61,11 +57,11 @@
     "static/media/html.svg": "/portfolio/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "static/media/sonar.svg": "/portfolio/static/media/sonar.d5f96fb6b9974e22ddc4da1a2e612856.svg",
-    "main.0e8a186a.css.map": "/portfolio/static/css/main.0e8a186a.css.map",
-    "main.397b4c0b.js.map": "/portfolio/static/js/main.397b4c0b.js.map"
+    "main.8b3e79b3.css.map": "/portfolio/static/css/main.8b3e79b3.css.map",
+    "main.14ce1675.js.map": "/portfolio/static/js/main.14ce1675.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8a186a.css",
-    "static/js/main.397b4c0b.js"
+    "static/css/main.8b3e79b3.css",
+    "static/js/main.14ce1675.js"
   ]
 }
