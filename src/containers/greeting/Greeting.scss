@@ -13,6 +13,11 @@
   margin-top: 2rem;
 }
 
+// .greeting-image-div svg {
+//   width: 100%;
+//   display: block
+// }
+
 .greeting-main {
   display: flex;
   align-items: center;
@@ -117,7 +122,16 @@
     display: block;
   }
   .greeting-image-div {
+    max-width: 450px;
     height: 256px;
+    padding-bottom: 50px;
+    margin-inline: auto;
+  }
+
+  .greeting-image-div > svg {
+    width: 70%;
+    display: flex;
+    justify-self: center;
   }
 }
 

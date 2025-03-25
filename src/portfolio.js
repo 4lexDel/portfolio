@@ -32,10 +32,6 @@ const splashScreen = {
   duration: 1600
 };
 
-const illustration = {
-  animated: true
-};
-
 const greeting = {
   username: "Alexandre",
   title: "Hello, I'm Alexandre",
@@ -426,7 +422,6 @@ const contactInfo = {
 const isHireable = true;
 
 export {
-  illustration,
   greeting,
   socialMediaLinks,
   splashScreen,

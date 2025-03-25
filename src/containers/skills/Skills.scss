@@ -63,5 +63,10 @@
   .skills-image-div {
     /* display: none; */
     order: 2;
+
+    max-width: 450px;
+    // height: 256px;
+    // padding-bottom: 50px;
+    margin-inline: auto;
   }
 }
