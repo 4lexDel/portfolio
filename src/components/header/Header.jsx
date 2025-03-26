@@ -7,6 +7,7 @@ import {
   greeting,
 } from "../../portfolio";
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "../languageSelector/LanguageSelector";
 
 function Header() {
   const { t } = useTranslation();
@@ -20,11 +21,14 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/portfolio" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{t(greeting.username)}</span>
-          <span className="grey-color">/&gt;</span>
-        </a>
+        <div className="logo">
+          <a href="/portfolio">
+            <span className="grey-color"> &lt;</span>
+            <span className="logo-name">{t(greeting.username)}</span>
+            <span className="grey-color">/&gt;</span>
+          </a>
+          <LanguageSelector />
+        </div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn" style={{ color: "white" }}>
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>

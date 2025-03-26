@@ -13,18 +13,11 @@ import { StyleProvider } from "../contexts/StyleContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 import Contact from "./contact/Contact";
-import { useTranslation } from "react-i18next";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
-
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
 
   useEffect(() => {
     if (splashScreen.enabled) {
@@ -49,10 +42,6 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
-          {/* <div style={{position: "fixed", zIndex: 1000}}>
-            <button onClick={() => changeLanguage('en')}>English</button>
-            <button onClick={() => changeLanguage('fr')}>Français</button>
-          </div> */}
             <Header />
             <Greeting />
             <Skills />

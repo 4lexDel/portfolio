@@ -1,0 +1,83 @@
+@import "../../_globalColor";
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dark .dropdown-btn {
+  background-color: $darkBackground !important;
+  color: $textColorDark;
+  box-shadow: 0px 1px 16px rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-btn {
+  margin-left: 30px;
+  background-color: $lightBackground1;
+  color: $textColor;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-btn:hover {
+  background-color: #3c5b77;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 30px;
+  // margin-right: 10px;
+}
+
+.arrow-down {
+  margin-left: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 30px;
+  background-color: #f5f5f5;
+  // min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.dropdown-content .dropdown-item {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-content .dropdown-item:hover {
+  background-color: #e0e0e0;
+  color: blue;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c9d2;
+  border-radius: 8px;
+}

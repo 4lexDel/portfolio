@@ -1,8 +1,5 @@
 TODO
-- Translation I18N
-- Delete proficiency
 - Resume link
-- Personal project to rename
 
 
 Animation:
