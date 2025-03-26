@@ -1,0 +1,163 @@
+{
+    "greeting": {
+        "username": "Alexandre",
+        "title": "Hello, I'm Alexandre",
+        "subTitle": "I am a passionate developer since high school 🚀 Almost graduated from CESI Graduate School of Engineering 👨‍🎓 I have an experience of building Web applications with many backend & frontend frameworks.",
+        "resumeLink": ""
+    },
+    "skillsContent": {
+        "title": "Skills",
+        "subTitle": "",
+        "frontendSection": "Frontend",
+        "backendSection": "Backend",
+        "othersSection": "Others languages",
+        "devOpsConceptionSection": "DevOps / Conception"
+    },
+    "educationInfo": {
+        "title": "Education",
+        "cesi": {
+            "name": "CESI Graduate School of Engineering",
+            "subHeader": "School of Engineering in Computer Science",
+            "duration": "September 2020 - September 2025",
+            "desc": "Team projects / Apprenticeship / Internships / Experience abroad"
+        },
+        "toeic": {
+            "name": "Toeic - 895/990",
+            "subHeader": "Toeic certification passed",
+            "duration": "January 2025",
+            "desc": "B2 level in English",
+            "link": {
+                "name": "Score report"
+            }
+        },
+        "ccna": {
+            "name": "CCNA1 - CISCO",
+            "subHeader": "CCNA1 certification passed",
+            "duration": "April 2022",
+            "desc": "Networks and systems concepts comprehension"
+        }
+    },
+    "workExperiences": {
+        "title": "Experiences",
+        "rte": {
+            "role": "Fullstack developer apprentice",
+            "company": "RTE",
+            "date": "September 2022 – October 2025",
+            "desc": "Web developer at RTE Réseau de Transport d'Electricité. Development of an internal application as part of a team working using the SCRUM Agile method."
+        },
+        "lunatech": {
+            "role": "Fullstack developer Intern",
+            "company": "Lunatech",
+            "date": "July 2024 - October 2024",
+            "desc": "Use of the Quarkus framework to develop an internal solution. Requested Jamf and Slack APIs to control the laptops remotely."
+        },
+        "ls2n": {
+            "role": "Software Engineer Intern",
+            "company": "LS2N laboratory",
+            "date": "May 2024 - July 2024",
+            "desc": "Use of xAPI protocol to process Java and Kotlin unit tests result reports. Application of Python statistical study to identify learner weaknesses & strengths."
+        },
+        "dga": {
+            "role": "Python developer Intern",
+            "company": "DGA",
+            "date": "April 2022 - July 2022",
+            "desc": "Development in Python of an automatic Word report generation solution, based on test results provided by TestLink."
+        }
+    },
+    "sourceCode": "Source code",
+    "visitWebsite": "Visit website",
+    "projects.title": "Projects",
+    "webProjects": {
+        "title": "WEB projects",
+        "tangram": {
+            "name": "Tangram solver",
+            "desc": "Tangram solver on grid space. Define final model and solve it."
+        },
+        "pathfinding": {
+            "name": "Pathfinding",
+            "desc": "Grid map editor with implementation of pathfinding algorithms (JPS and A*). Performance comparison on randomly generated mazes with DFS and Fusion methods."
+        },
+        "bobail": {
+            "name": "Bobail",
+            "desc": "Development of a 2-player board game, management of a Room system. Implementation of the MinMax algorithm to create an intermediate-level AI."
+        },
+        "cellularAutomaton": {
+            "name": "Cellular automaton",
+            "desc": "Development of a map editor to understand the concept of cellular automata (example with the game of life)."
+        },
+        "didactikRobot": {
+            "name": "DidactikRobot",
+            "desc": "Development of a pedagogical platform for learning the programming logic."
+        },
+        "angularApp": {
+            "name": "Angular app",
+            "desc": "Development of a Todo List application with Angular linked to an API created in NodeJS."
+        },
+        "graphGenerator": {
+            "name": "Graph generator",
+            "desc": "Mathematical graph manager. Generates cities using Voronoi diagrams."
+        },
+        "kingsGame": {
+            "name": "King's game",
+            "desc": "Real-time multiplayer game with global chat system."
+        },
+        "abalone": {
+            "name": "Abalone",
+            "desc": "Abalone board game developed on the basis of the Bobail project (presented before)."
+        }
+    },
+    "javaProjects": {
+        "title": "Java projects",
+        "spaceRun": {
+            "name": "Space run",
+            "desc": "High school project developed during my IT specialization. Space Invader-type game. Objective: go as far as possible while avoiding asteroids."
+        },
+        "idleGame": {
+            "name": "Idle game",
+            "desc": "Small Idle-type game, the objective is to accumulate the most resources."
+        },
+        "cityGenerator": {
+            "name": "City generator",
+            "desc": "Generation of coherent towns with roads, rails and houses. Vehicle movement system to explore the generated map."
+        },
+        "lagrangeInterpolation": {
+            "name": "Lagrange interpolation",
+            "desc": "Implementation of Lagrange interpolator polynomials. The user places the points in the frame of reference and the program determines the function passing through all the points."
+        }
+    },
+    "schoolProjects": {
+        "title": "School projects",
+        "easySave": {
+            "name": "Easy save",
+            "desc": "Development of a backup software (differential backup system, encryption, remote access...)."
+        },
+        "projectAdvancedAlgorithms": {
+            "name": "TSP/VRP",
+            "desc": "Development of heuristics and metaheuristics (genetic algorithm, ant colony, taboo...) to optimize vehicle routes (VRP problem, TSP)."
+        },
+        "salesManagement": {
+            "name": "Sales management",
+            "desc": "Development of a sales management software (inventory management, personnel, statistics...)."
+        },
+        "signalProcessing": {
+            "name": "Signal processing",
+            "desc": "Sound wave processing in Python (modulation, demodulation, coding, decoding...)."
+        },
+        "networksAndSystems": {
+            "name": "Networks and systems",
+            "desc": "Audit of a network infrastructure, design of an architecture respecting customer constraints. Obtained CCNA1 (CISCO certification)."
+        },
+        "weatherStation": {
+            "name": "Weather station",
+            "desc": "Creation of a weather station with an Arduino board and various sensors (temperature, pressure, humidity, GPS...)."
+        }
+    },
+    "resumeSection": {
+        "title": "Resume",
+        "subtitle": "Feel free to download my resume"
+    },
+    "contactInfo": {
+        "title": "Contact Me ☎️",
+        "subtitle": "Discuss a project or just want to get more information about me?"
+    }
+}

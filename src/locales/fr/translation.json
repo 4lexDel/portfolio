@@ -1,0 +1,163 @@
+{
+    "greeting": {
+        "username": "Alexandre",
+        "title": "Bonjour, je suis Alexandre",
+        "subTitle": "Je suis un développeur passionné depuis le lycée 🚀 Presque diplômé de la CESI Graduate School of Engineering 👨‍🎓 J'ai de l'expérience dans la création d'applications Web avec de nombreux frameworks backend et frontend.",
+        "resumeLink": ""
+    },
+    "skillsContent": {
+        "title": "Compétences",
+        "subTitle": "",
+        "frontendSection": "Frontend",
+        "backendSection": "Backend",
+        "othersSection": "Autres languages",
+        "devOpsConceptionSection": "DevOps / Conception"
+    },
+    "educationInfo": {
+        "title": "Formations", 
+        "cesi": {
+            "name": "CESI École d'ingénieur",
+            "subHeader": "École d'ingénieur spécialité informatique",
+            "duration": "Septembre 2020 - Septembre 2025",
+            "desc": "Projets en équipe / Apprentissage / Stages / Expérience à l'étranger"
+        },
+        "toeic": {
+            "name": "Toeic - 895/990",
+            "subHeader": "Certification Toeic obtenue",
+            "duration": "Janvier 2025",
+            "desc": "Niveau B2 en anglais",
+            "link": {
+                "name": "Rapport de score"
+            }
+        },
+        "ccna": {
+            "name": "CCNA1 - CISCO",
+            "subHeader": "Certification CCNA1 obtenue",
+            "duration": "Avril 2022",
+            "desc": "Compréhension des concepts réseaux et systèmes"
+        }
+    },
+    "workExperiences": {
+        "title": "Expériences",
+        "rte": {
+            "role": "Apprenti développeur fullstack",
+            "company": "RTE",
+            "date": "Septembre 2022 – Octobre 2025",
+            "desc": "Développeur web chez RTE Réseau de Transport d'Électricité. Développement d'une application interne dans une équipe travaillant avec la méthode SCRUM Agile."
+        },
+        "lunatech": {
+            "role": "Stagiaire développeur fullstack",
+            "company": "Lunatech",
+            "date": "Juillet 2024 - Octobre 2024",
+            "desc": "Utilisation du framework Quarkus pour développer une solution interne. Utilisation des API Jamf et Slack pour contrôler à distance les ordinateurs portables."
+        },
+        "ls2n": {
+            "role": "Stagiaire ingénieur logiciel",
+            "company": "Laboratoire LS2N",
+            "date": "Mai 2024 - Juillet 2024",
+            "desc": "Utilisation du protocole xAPI pour traiter les rapports de résultats des tests unitaires Java et Kotlin. Application de l'étude statistique Python pour identifier les forces et faiblesses des apprenants."
+        },
+        "dga": {
+            "role": "Stagiaire développeur Python",
+            "company": "DGA",
+            "date": "Avril 2022 - Juillet 2022",
+            "desc": "Développement en Python d'une solution de génération automatique de rapports Word, basée sur les résultats de tests fournis par TestLink."
+        }
+    },
+    "sourceCode": "Code source",
+    "visitWebsite": "Visiter le site",
+    "projects.title": "Projets",
+    "webProjects": {
+        "title": "Projets WEB",
+        "tangram": {
+            "name": "Tangram solver",
+            "desc": "Solveur de Tangram sur espace de grille. Définir le modèle final et le résoudre."
+        },
+        "pathfinding": {
+            "name": "Pathfinding",
+            "desc": "Éditeur de carte avec implémentation des algorithmes de recherche de chemin (JPS et A*). Comparaison des performances sur des labyrinthes générés aléatoirement avec DFS et méthodes Fusion."
+        },
+        "bobail": {
+            "name": "Bobail",
+            "desc": "Développement d'un jeu de société pour 2 joueurs, gestion d'un système de Room. Implémentation de l'algorithme MinMax pour créer une IA de niveau intermédiaire."
+        },
+        "cellularAutomaton": {
+            "name": "Cellular automaton",
+            "desc": "Développement d'un éditeur de carte pour comprendre le concept des automates cellulaires (exemple avec le jeu de la vie)."
+        },
+        "didactikRobot": {
+            "name": "DidactikRobot",
+            "desc": "Développement d'une plateforme pédagogique pour apprendre la logique de programmation."
+        },
+        "angularApp": {
+            "name": "Angular app",
+            "desc": "Développement d'une application Todo List avec Angular liée à une API créée en NodeJS."
+        },
+        "graphGenerator": {
+            "name": "Graph generator",
+            "desc": "Gestionnaire de graphes mathématiques. Génère des villes à l'aide de diagrammes de Voronoi."
+        },
+        "kingsGame": {
+            "name": "King's game",
+            "desc": "Jeu multijoueur en temps réel avec système de chat global."
+        },
+        "abalone": {
+            "name": "Abalone",
+            "desc": "Jeu de société Abalone développé sur la base du projet Bobail (présenté ci-dessus)."
+        }
+    },
+    "javaProjects": {
+        "title": "Projets Java",
+        "spaceRun": {
+            "name": "Space run",
+            "desc": "Projet de lycée développé lors de ma spécialisation informatique. Jeu de type Space Invaders. Objectif : aller le plus loin possible tout en évitant les astéroïdes."
+        },
+        "idleGame": {
+            "name": "Idle game",
+            "desc": "Petit jeu de type Idle, l'objectif est d'accumuler le plus de ressources."
+        },
+        "cityGenerator": {
+            "name": "City generator",
+            "desc": "Génération de villes cohérentes avec routes, rails et maisons. Système de mouvement de véhicule pour explorer la carte générée."
+        },
+        "lagrangeInterpolation": {
+            "name": "Lagrange interpolation",
+            "desc": "Implémentation des polynômes d'interpolation de Lagrange. L'utilisateur place les points dans le repère et le programme détermine la fonction passant par tous les points."
+        }
+    },
+    "schoolProjects": {
+        "title": "Projets d'école",
+        "easySave": {
+            "name": "Easy save",
+            "desc": "Développement d'un logiciel de sauvegarde (système de sauvegarde différentiel, chiffrement, accès à distance...)."
+        },
+        "projectAdvancedAlgorithms": {
+            "name": "TSP/VRP",
+            "desc": "Développement d'heuristiques et de métaheuristiques (algorithme génétique, colonie de fourmis, taboo...) pour optimiser les trajets des véhicules (problème VRP, TSP)."
+        },
+        "salesManagement": {
+            "name": "Sales management",
+            "desc": "Développement d'un logiciel de gestion des ventes (gestion des stocks, personnel, statistiques...)."
+        },
+        "signalProcessing": {
+            "name": "Signal processing",
+            "desc": "Traitement des ondes sonores en Python (modulation, démodulation, codage, décodage...)."
+        },
+        "networksAndSystems": {
+            "name": "Networks and systems",
+            "desc": "Audit d'une infrastructure réseau, conception d'une architecture respectant les contraintes client. Obtention de la certification CCNA1 (CISCO)."
+        },
+        "weatherStation": {
+            "name": "Weather station",
+            "desc": "Création d'une station météo avec une carte Arduino et divers capteurs (température, pression, humidité, GPS...)."
+        }
+    },
+    "resumeSection": {
+        "title": "CV",
+        "subtitle": "N'hésitez pas à télécharger mon CV"
+    },
+    "contactInfo": {
+        "title": "Contactez-moi ☎️",
+        "subtitle": "Besoin de discuter d'un projet ou simplement obtenir plus d'informations sur mon profile ?"
+    }
+}

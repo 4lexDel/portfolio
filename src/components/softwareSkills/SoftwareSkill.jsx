@@ -2,8 +2,11 @@ import React, { useContext } from "react";
 import "./SoftwareSkill.scss";
 import { skillsContent } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { useTranslation } from "react-i18next";
 
 export default function SoftwareSkill() {
+  const { t } = useTranslation();
+
   const {isDark} = useContext(StyleContext);
 
   return (
@@ -19,7 +22,7 @@ export default function SoftwareSkill() {
                     : "subTitle skills-text-subtitle"
                 }
               >
-                {skillsSection.title}
+                {t(`skillsContent.${skillsSection.identifier}`)}
               </p>
               {
                 skillsSection.data.map((skillDetail, j) => {

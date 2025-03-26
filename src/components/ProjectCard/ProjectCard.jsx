@@ -1,8 +1,11 @@
 import React, { useContext } from "react";
 import StyleContext from "../../contexts/StyleContext";
 import "./ProjectCard.scss";
+import { useTranslation } from "react-i18next";
 
 export default function ProjectCard({project, openUrlInNewTab}) {
+  const { t } = useTranslation();
+  
   const {isDark} = useContext(StyleContext);
 
   return (
@@ -17,7 +20,7 @@ export default function ProjectCard({project, openUrlInNewTab}) {
         <div className="project-image">
           <img
             src={project.image}
-            alt={project.projectName}
+            alt={t(`${project.identifier}.name`)}
             className="card-image"
           />
         </div>
@@ -25,10 +28,10 @@ export default function ProjectCard({project, openUrlInNewTab}) {
 
       <div className="project-detail">
         <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
-          {project.projectName}
+          {t(`${project.identifier}.name`)}
         </h5>
         <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
-          {project.projectDesc}
+          {t(`${project.identifier}.desc`)}
         </p>
 
         {project.footerLink && (
@@ -39,7 +42,7 @@ export default function ProjectCard({project, openUrlInNewTab}) {
                 className={isDark ? "dark-mode project-tag" : "project-tag"}
                 onClick={() => openUrlInNewTab(link.url)}
               >
-                {link.name}
+                {t(link.name)}
               </span>
             ))}
           </div>

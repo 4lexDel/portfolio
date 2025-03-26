@@ -6,8 +6,11 @@ import StyleContext from "../../contexts/StyleContext";
 import {projectSections} from "../../portfolio";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./Projects.scss";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
+
   const responsive = {
     desktop: {
       breakpoint: {max: 3000, min: 1024},
@@ -42,17 +45,7 @@ export default function Projects() {
         {projectSections.map((projectSection, i) => {
           return (
             <div key={i}>
-              <h1 className="skills-heading">{projectSection.title}</h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode project-subtitle"
-                    : "subTitle project-subtitle"
-                }
-              >
-                {projectSection.subtitle}
-              </p>
-
+              <h1 className="skills-heading">{t(projectSection.title)}</h1>
               <div className="projects-container">
                 <Carousel
                   swipeable={true}
@@ -66,7 +59,6 @@ export default function Projects() {
                   transitionDuration={500}
                   containerClass="carousel-container"
                   dotListClass="custom-dot-list-style"
-                  // centerMode={true}
                 >
                   {projectSection.projects.map((project, i) => (
                     <ProjectCard
