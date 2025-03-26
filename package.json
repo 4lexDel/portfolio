@@ -16,17 +16,15 @@
     "react-headroom": "^3.0.0",
     "react-multi-carousel": "^2.8.5",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "node fetch.js && vite preview",
+    "deploy": "gh-pages -b gh-pages -d build",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
@@ -52,7 +50,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@vitejs/plugin-react": "^4.3.4",
     "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3"
   }
 }

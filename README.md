@@ -2,7 +2,6 @@ TODO
 - Translation I18N
 - Delete proficiency
 - Resume link
-- Wrong title in the loader
 
 
 Animation:
