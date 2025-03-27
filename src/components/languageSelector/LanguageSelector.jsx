@@ -4,8 +4,9 @@ import "./LanguageSelector.scss";
 import StyleContext from "../../contexts/StyleContext";
 
 const locales = [
-  "en-GB", "de-DE", "es-ES", "fr-FR", "it-IT"
+  "en-GB", "fr-FR"
 ];
+//  "en-GB", "de-DE", "es-ES", "fr-FR", "it-IT"
 //  "en-GB", "ar-SA", "zh-CN", "de-DE", "es-ES", "fr-FR", "hi-IN", "it-IT", "in-ID", "ja-JP", "ko-KR", "nl-NL", "no-NO", "pl-PL", "pt-BR", "sv-SE", "fi-FI", "th-TH", "tr-TR", "uk-UA", "vi-VN", "ru-RU", "he-IL"
 
 
@@ -27,14 +28,11 @@ const LanguageSelector = () => {
   };
 
   const intlLocale = new Intl.Locale(selectedLocale);
-  const langName = new Intl.DisplayNames([selectedLocale], { type: "language" }).of(intlLocale.language);
 
   return (
-    <div className="dropdown">
-      <button onClick={() => setIsOpen(!isOpen)} className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
+    <div className="dropdown" onMouseLeave={() => setIsOpen(false)} onMouseEnter={() => setIsOpen(true)}>
+      <button className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
         <img src={getFlagSrc(intlLocale.region)} alt="flag" className="flag-icon" />
-        {/* {langName} */}
-        <span className="arrow-down">▼</span>
       </button>
       {isOpen && (
         <ul className="dropdown-content">
@@ -42,11 +40,9 @@ const LanguageSelector = () => {
             .filter((locale) => locale !== selectedLocale)
             .map((locale) => {
               const localeIntl = new Intl.Locale(locale);
-              const localeLangName = new Intl.DisplayNames([locale], { type: "language" }).of(localeIntl.language);
               return (
                 <li key={locale} className="dropdown-item" onClick={() => changeLanguage(locale)}>
                   <img src={getFlagSrc(localeIntl.region)} alt="flag" className="flag-icon" />
-                  {/* {localeLangName} */}
                 </li>
               );
             })}
