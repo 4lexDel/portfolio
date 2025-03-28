@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSelector.scss";
 import StyleContext from "../../contexts/StyleContext";
@@ -21,6 +21,19 @@ const LanguageSelector = () => {
   const [selectedLocale, setSelectedLocale] = useState(i18n.language || locales[0]);
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   const changeLanguage = (locale) => {
     i18n.changeLanguage(locale);
     setSelectedLocale(locale);
@@ -33,10 +46,11 @@ const LanguageSelector = () => {
 
   return (
     <div
+      ref={dropdownRef}
       className="dropdown"
       onMouseLeave={!isMobileDevice ? () => setIsOpen(false) : undefined}
       onMouseEnter={!isMobileDevice ? () => setIsOpen(true) : undefined}
-      onClick={isMobileDevice ? () => setIsOpen(true) : undefined}
+      onClick={isMobileDevice ? () => setIsOpen(!isOpen) : undefined}
     >
       <button className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
         <img src={getFlagSrc(intlLocale.region)} alt="flag" className="flag-icon" />
