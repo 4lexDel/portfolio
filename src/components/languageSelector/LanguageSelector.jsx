@@ -36,7 +36,7 @@ const LanguageSelector = () => {
       className="dropdown"
       onMouseLeave={!isMobileDevice ? () => setIsOpen(false) : undefined}
       onMouseEnter={!isMobileDevice ? () => setIsOpen(true) : undefined}
-      onClick={isMobileDevice ? () => setIsOpen(!isOpen) : undefined}
+      onClick={isMobileDevice ? () => setIsOpen(true) : undefined}
     >
       <button className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
         <img src={getFlagSrc(intlLocale.region)} alt="flag" className="flag-icon" />
