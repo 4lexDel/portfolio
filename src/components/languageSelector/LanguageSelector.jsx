@@ -30,12 +30,17 @@ const LanguageSelector = () => {
   const intlLocale = new Intl.Locale(selectedLocale);
 
   return (
-    <div className="dropdown" onMouseLeave={() => setIsOpen(false)} onMouseEnter={() => setIsOpen(true)}>
+    <div className="dropdown"
+      onMouseLeave={() => setIsOpen(false)} 
+      onMouseEnter={() => setIsOpen(true)} 
+      // onMouseOver={setIsOpen(true)}
+    // onClick={() => setIsOpen(true)}
+    >
       <button className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
         <img src={getFlagSrc(intlLocale.region)} alt="flag" className="flag-icon" />
       </button>
       {isOpen && (
-        <ul className="dropdown-content">
+        <ul className={isDark ? "dark dropdown-content" : "dropdown-content"}>
           {locales
             .filter((locale) => locale !== selectedLocale)
             .map((locale) => {
