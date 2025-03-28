@@ -29,12 +29,14 @@ const LanguageSelector = () => {
 
   const intlLocale = new Intl.Locale(selectedLocale);
 
+  const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+
   return (
-    <div className="dropdown"
-      onMouseLeave={() => setIsOpen(false)} 
-      onMouseEnter={() => setIsOpen(true)} 
-      // onMouseOver={setIsOpen(true)}
-    // onClick={() => setIsOpen(true)}
+    <div
+      className="dropdown"
+      onMouseLeave={!isMobileDevice ? () => setIsOpen(false) : undefined}
+      onMouseEnter={!isMobileDevice ? () => setIsOpen(true) : undefined}
+      onClick={isMobileDevice ? () => setIsOpen(!isOpen) : undefined}
     >
       <button className={isDark ? "dark dropdown-btn" : "dropdown-btn"}>
         <img src={getFlagSrc(intlLocale.region)} alt="flag" className="flag-icon" />
