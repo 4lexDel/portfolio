@@ -77,9 +77,9 @@
             "name": "Pathfinding",
             "desc": "Éditeur de carte avec implémentation des algorithmes de recherche de chemin (JPS et A*). Comparaison des performances sur des labyrinthes générés aléatoirement avec DFS et méthodes Fusion."
         },
-        "bobail": {
-            "name": "Bobail",
-            "desc": "Développement d'un jeu de société pour 2 joueurs, gestion d'un système de Room. Implémentation de l'algorithme MinMax pour créer une IA de niveau intermédiaire."
+        "boardGames": {
+            "name": "Board games",
+            "desc": "Développement de jeux de sociétés pour 2 joueurs. Implémentation de l'algorithme MinMax et Monte Carlo Tree Search pour créer des IA robustes."
         },
         "cellularAutomaton": {
             "name": "Cellular automaton",
@@ -103,7 +103,7 @@
         },
         "abalone": {
             "name": "Abalone",
-            "desc": "Jeu de société Abalone développé sur la base du projet Bobail (présenté ci-dessus)."
+            "desc": "Jeu de société Abalone développé sur la base du projet Board games (présenté ci-dessus)."
         }
     },
     "javaProjects": {

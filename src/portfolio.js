@@ -34,7 +34,7 @@ import universiteNantesLogo from "./assets/images/universiteNantesLogo.png";
 import DGALogo from "./assets/images/DGALogo.png";
 import tangramLogo from "./assets/images/tangram.png";
 import pathfindingLogo from "./assets/images/pathfinding.png";
-import bobailLogo from "./assets/images/bobail.png";
+import boardGamesLogo from "./assets/images/boardGames.png";
 import automateCellulaireLogo from "./assets/images/automate-cellulaire.png";
 import didactikRobotLogo from "./assets/images/didactikRobot.png";
 import todoAppLogo from "./assets/images/todo-app.png";
@@ -269,19 +269,19 @@ const webProjects = {
       ]
     },
     {
-      identifier: "webProjects.bobail",
-      image: bobailLogo,
-      name: "webProjects.bobail.name",
+      identifier: "webProjects.boardGames",
+      image: boardGamesLogo,
+      name: "webProjects.boardGames.name",
       desc:
-        "webProjects.bobail.desc",
+        "webProjects.boardGames.desc",
       footerLink: [
         {
           name: "sourceCode",
-          url: "https://github.com/4lexDel/bobail-online.git/"
+          url: "https://github.com/4lexDel/bobail-v2.git/"
         },
         {
           name: "visitWebsite",
-          url: "https://4lexdel.github.io/BobailMinMax/"
+          url: "https://4lexdel.github.io/bobail-v2/"
         }
       ]
     },
